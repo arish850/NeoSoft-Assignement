@@ -6,10 +6,10 @@ module.exports = {
     },
     db: {
         mongo: {
-            uri: "mongodb://localhost:27017/NeoSoftAssignement",
+            uri: "mongodb+srv://cluster0.1mxtg9l.mongodb.net",
             options: {
-                user: '',
-                pass: ''
+                user: 'arish',
+                pass: 'Mumbai@222'
             }
         }
     },
