@@ -1,5 +1,5 @@
 module.exports = {
-    port: 2000,
+    port :process.env.PORT || 8080,
     jwt: {
         Secret: "developmt@DEV",
         options: { expiresIn: 365 * 60 * 60 * 24 } // 365 days
