@@ -13,7 +13,7 @@ const register = async (req) => {
 
         // Validate user input
         if (!(email && password && first_name && last_name)) {
-            res.status(400).send("All input is required");
+            return Promise.reject({ statusCode: 400, status: false, msg: "All input is required", data: {} });
         }
 
         // check if user already exist
