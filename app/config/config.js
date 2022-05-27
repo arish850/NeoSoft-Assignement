@@ -6,7 +6,7 @@ module.exports = {
     },
     db: {
         mongo: {
-            uri: "mongodb+srv://cluster0.1mxtg9l.mongodb.net",
+            uri: "mongodb+srv://cluster0.1mxtg9l.mongodb.net/Arish",
             options: {
                 user: 'arish',
                 pass: 'Mumbai@222'
